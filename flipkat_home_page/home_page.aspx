@@ -16,15 +16,15 @@
             height: 40vh;
             object-fit: cover;
         }
-        /* Add spacing between icons based on screen size */
+      
         @media (min-width: 768px) {
             .navbar-nav {
-                gap: 30px; /* Increase gap for medium screens and above */
+                gap: 30px;
             }
         }
         @media (min-width: 1200px) {
             .navbar-nav {
-                gap: 50px; /* Further increase gap for large screens */
+                gap: 50px; 
             }
         }
     </style>
